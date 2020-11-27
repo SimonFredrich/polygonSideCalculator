@@ -11,7 +11,8 @@ public class Main {
         int side = input.side();
 
         Calculator calculator = new Calculator();
-        System.out.println(calculator.computeOneSideLengthOfPolygon(r, side));
+        System.out.print("Das Polygon hat eine Seitenlänge von: ");
+        System.out.print(calculator.computeOneSideLengthOfPolygon(r, side));
     }
 
 }

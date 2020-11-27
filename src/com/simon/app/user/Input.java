@@ -9,12 +9,12 @@ public class Input {
     private Scanner s = new Scanner(System.in);
 
     public double radius() {
-        System.out.println("Give me the radius: ");
+        System.out.print("Give me the radius: ");
         return s.nextDouble();
     }
 
     public int side() {
-        System.out.println("Give me the sides: ");
+        System.out.print("Give me the sides: ");
         return s.nextInt();
     }
 }
